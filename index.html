@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Statistik Kabupaten Garut</title>
+    <style>
+        /* Tabel data: garis rapi + angka rata tengah */
+        .data { border-collapse: collapse; }
+        .data th, .data td { border: 1px solid black; padding: 5px; }
+        .data td { text-align: center; }
+        .data td:first-child { text-align: left; }  /* nama kecamatan tetap rata kiri */
+
+         /* Kerangka halaman: kotak-kotak terpisah dengan jarak (space) */
+        .layout { width: 900px; margin: 0 auto; border-collapse: separate; border-spacing: 10px; }
+        .layout td.header { padding: 0; }                 /* header pakai garis dari tabel kecilnya */
+        .layout td.kiri, .layout td.kanan, .layout td.footer { border: 1px solid rgb(0, 0, 0); padding: 10px; }
+        .layout td.kiri { width: 260px; background-color: rgb(240, 252, 185); text-align: justify; vertical-align: top; }
+        .layout td.kanan { vertical-align: top; }
+        .layout td.footer { text-align: center; }
+        .kiri h3 { text-align: center; margin-top: 0; }
+    </style>
+</head>
+<body>
+
+<!-- TABEL LUAR (kerangka halaman) -->
+<table class="layout">
+  <!-- BARIS 1: header (logo + judul) -->
+  <tr style="background-color:rgb(187, 235, 255)">
+    <td colspan="2" class="header">
+
+      <!-- TABEL KECIL UNTUK HEADER: logo kiri, judul kanan -->
+      <table width="100%" border="1" cellpadding="5" cellspacing="0">
+        <tr>
+          <td width="100px" align="center" valign="middle">
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Lambang_Kabupaten_Garut.svg/250px-Lambang_Kabupaten_Garut.svg.png"
+                 width="80" height="100">
+          </td>
+          <td align="center" valign="middle">
+            <h2>DATA INFORMASI STATISTIK KABUPATEN GARUT</h2>
+          </td>
+        </tr>
+      </table>
+
+       </td>
+  </tr>
+   <!-- BARIS 2: informasi di kiri, tabel data di kanan -->
+  <tr>
+
+    <!-- KOLOM KIRI: informasi Kabupaten Garut -->
+    <td class="kiri">
+      <!-- Kalau punya gambar peta, tambahkan di sini:
+           <img src="peta_garut.png" width="100%"> -->
+      <h3>Kabupaten Garut</h3>
+      <p>
+        Kabupaten Garut merupakan salah satu daerah kabupaten yang terletak dibagian selatan Provinsi Jawa Barat.
+        Wilayah geografis Kabupaten Garut memiliki letak yang sangat strategis karena dikelilingi dan berbatasan langsung dengan beberapa kabupaten lainnya. 
+        Disebelah utara, wilayah Garut ini berbatasan dengan Kabupaten Sumedang, sementara di bagian timur berbatasan dengan Kabupaten Tasikmalaya. Pada batas bagian barat, berdampingan dengan Kabupaten Cianjur, dan disebelah selatan wilayah Kabupaten Garut berbatasan dengan Samudra Hindia. 
+      </p>
+      <p>
+       Secara tata kelola administratif, Kabupaten Garut terdiri dari 42 kecamatan. berdasarkan data statistik yang disajikan, setiap kecamatan memiliki karakteristik kependudukan serta luas wilayah yang cukup bervariasi. data tersebut memuat rincian penting yang mencakup luas wilayah, jumlah total penduduk, hingga tingkat kepadatan penduduk pada setiap kecamatan yang ada di Kabupaten Garut.
+       <p>
+        Masyarakat Garut memegang teguh kebudayaan Sunda yang kaya akan tradisi dan nilai sejarah. Salah satu tradisi yang sangat ikonik adalah seni laga "Domba Garut" yaitu sebuah seni pertunjukan turun-temurun yang melambangkan kebanggaan serta keunggulan ras domba lokal. selain itu, Garut juga memiliki kesenian tradisional seperti lais dan surak ibra. serta peninggalan bersejarah berupa Candi Cangkuang yang berada di Kecamatan Leles yang menjadi simbol keharmonisan peradaban Hindu dan Islam dimasa lampau.
+       </p>
+       <p>
+        Kondisi geografis Garut yang didominasi oleh pegunungan, dataran tinggi, hingga garis pantai diwilayah Selatan membentuk latar belakang mata pencaharian penduduk yang beragam. sebagian besar warga bergerak di sektor agraris dengan mengandalkan hasil pertanian dan perkebunan, seperti komoditas teh, kopi, sayur-mayur, jeruk garut, hingga tembakau. disamping itu, peternakan domba dan sapi perah juga menjadi penopang utama perekonomian masyarakat Garut di pedesaan.
+       </p>
+       <p>
+        Selain sektor pertanian, perekonomian Garut didorong oleh kawasan industri kerajinan kulit Sukaregang yang mendunia melalui produk jaket, sepatu, dan tas berkualitas tinggi. Sektor pariwisata dan ekonomi kreatif juga berkembang pesat karena adanya daya tarik wisata alam pemandian air panas, pegunungan, serta pantai selatan. Perkembangan ini melahirkan industri kuliner khas yang menjadi mata pencaharian banyak warga, terutama dalam memproduksi oleh-oleh legendaris khas Garut seperti dodol Garut dan olahan coklat dodol khas Garut.
+       </p>
+      </p>
+    </td>
+
+       <!-- KOLOM KANAN: tabel data -->
+    <td class="kanan"  style="background-color:rgb(240, 252, 185)">
+      
+
+        <!-- TABEL DATA -->
+        <table class="data" width="100%">
+            <thead>
+                <!-- BARIS JUDUL TABEL (melebar 4 kolom) -->
+                <tr style="background-color:rgb(249, 129, 147)">
+                    <th colspan="4" align="center">Tabel Penduduk</th>
+                </tr>
+                <tr style="background-color:lightpink">
+                    <th>Kecamatan</th>
+                    <th>Luas Wilayah</th>
+                    <th>Jumlah Penduduk</th>
+                    <th>Kepadatan Penduduk</th>
+                </tr>
+            </thead>
+            <tbody style="background-color:rgb(252, 251, 233)">
+        <tr><td>Cisewu</td><td>172,83</td><td>34.248</td><td>198,16</td></tr>
+        <tr><td>Caringin</td><td>99,03</td><td>33.663</td><td>339,93</td></tr>
+        <tr><td>Talegong</td><td>108,74</td><td>29.466</td><td>270,98</td></tr>
+        <tr><td>Bungbulang</td><td>146,98</td><td>60.329</td><td>410,46</td></tr>
+        <tr><td>Mekarmukti</td><td>55,22</td><td>19.627</td><td>355,43</td></tr>
+        <tr><td>Pamulihan</td><td>132,44</td><td>19.380</td><td>146,33</td></tr>
+        <tr><td>Pakenjeng</td><td>198,44</td><td>70.653</td><td>356,04</td></tr>
+        <tr><td>Cikelet</td><td>172,32</td><td>46.858</td><td>271,92</td></tr>
+        <tr><td>Pameungpeuk</td><td>44,11</td><td>44.962</td><td>1.019,32</td></tr>
+        <tr><td>Cibalong</td><td>213,59</td><td>47.042</td><td>220,24</td></tr>
+        <tr><td>Cisompet</td><td>172,25</td><td>54.981</td><td>319,19</td></tr>
+        <tr><td>Peundeuy</td><td>56,79</td><td>24.779</td><td>436,33</td></tr>
+        <tr><td>Singajaya</td><td>67,69</td><td>48.982</td><td>723,62</td></tr>
+        <tr><td>Cihurip</td><td>40,42</td><td>19.386</td><td>479,61</td></tr>
+        <tr><td>Cikajang</td><td>124,95</td><td>88.004</td><td>704,31</td></tr>
+        <tr><td>Banjarwangi</td><td>123,82</td><td>59.602</td><td>481,36</td></tr>
+        <tr><td>Cilawu</td><td>77,63</td><td>113.057</td><td>1.456,36</td></tr>
+        <tr><td>Bayongbong</td><td>49,95</td><td>108.793</td><td>2.178,04</td></tr>
+        <tr><td>Cigedug</td><td>31,20</td><td>46.613</td><td>1.494,01</td></tr>
+        <tr><td>Cisurupan</td><td>80,88</td><td>101.957</td><td>1.260,60</td></tr>
+        <tr><td>Sukaresmi</td><td>35,17</td><td>41.779</td><td>1.187,92</td></tr>
+        <tr><td>Samarang</td><td>59,71</td><td>81.220</td><td>1.360,24</td></tr>
+        <tr><td>Pasirwangi</td><td>46,70</td><td>67.399</td><td>1.443,23</td></tr>
+        <tr><td>Tarogong Kidul</td><td>19,46</td><td>120.031</td><td>6.168,09</td></tr>
+        <tr><td>Tarogong Kaler</td><td>50,57</td><td>102.612</td><td>2.029,11</td></tr>
+        <tr><td>Garut Kota</td><td>27,71</td><td>131.809</td><td>4.756,73</td></tr>
+        <tr><td>Karangpawitan</td><td>52,07</td><td>146.814</td><td>2.819,55</td></tr>
+        <tr><td>Wanaraja</td><td>35,26</td><td>51.023</td><td>1.447,05</td></tr>
+        <tr><td>Sucinaraja</td><td>33,83</td><td>30.986</td><td>915,93</td></tr>
+        <tr><td>Pangatikan</td><td>19,72</td><td>44.375</td><td>2.250,25</td></tr>
+        <tr><td>Sukawening</td><td>38,83</td><td>59.652</td><td>1.536,23</td></tr>
+        <tr><td>Karangtengah</td><td>23,28</td><td>19.713</td><td>846,78</td></tr>
+        <tr><td>Banyuresmi</td><td>47,88</td><td>95.663</td><td>1.997,97</td></tr>
+        <tr><td>Leles</td><td>73,51</td><td>88.208</td><td>1.199,95</td></tr>
+        <tr><td>Leuwigoong</td><td>19,35</td><td>49.412</td><td>2.553,59</td></tr>
+        <tr><td>Cibatu</td><td>41,43</td><td>77.549</td><td>1.871,81</td></tr>
+        <tr><td>Kersamanah</td><td>16,50</td><td>40.642</td><td>2.463,15</td></tr>
+        <tr><td>Cibiuk</td><td>19,90</td><td>37.054</td><td>1.862,01</td></tr>
+        <tr><td>Kadungora</td><td>37,31</td><td>96.423</td><td>2.584,37</td></tr>
+        <tr><td>Balubur Limbangan</td><td>73,59</td><td>81.001</td><td>1.100,71</td></tr>
+        <tr><td>Selaawi</td><td>34,07</td><td>44.468</td><td>1.305,20</td></tr>
+        <tr><td>Malangbong</td><td>92,38</td><td>136.735</td><td>1.480,14</td></tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <!-- Footer / Informasi Alamat -->
+        <p align="center">
+            <b>Pemerintah Kabupaten Garut</b><br>
+            Jl. Pembangunan No. 181, Garut, Jawa Barat Kode Pos 44151
+        </p>
+
+      </center>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
